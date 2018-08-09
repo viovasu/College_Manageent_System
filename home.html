@@ -1,0 +1,118 @@
+<html>
+
+<head>
+<style>
+
+.dropbtn {
+    background-color: #8CE1FA;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #648EFD;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+table#t01 {
+    width: 50%;    
+    background-color: #F2EBE9;
+}
+</style>
+</head>
+
+<body bgcolor="#F1F8F7">
+<img src="download.png">
+
+<div class="dropdown" style="float:Right;">
+  <button class="dropbtn">Student</button>
+  <div class="dropdown-content">
+    <a href="login.html">Login</a>
+    <a href="signup.html">Signup</a>
+  </div>
+</div>
+
+<form id=form1 method="POST" action=".html">
+<br>
+<h2>
+<table bgcolor="powderblue" width=100% height=50 font=50>
+<tr>
+<th><a href="#">Home</th>
+<th><a href="about.html">About as</th>
+<th><a href="facility.html">Facilities</th>
+</tr>
+</table>
+</h2>
+<center>
+<div style="background-color:#F3400D">
+<canvas id="myCanvas" width="1000" height="75">
+Your browser does not support the canvas element.
+</canvas>
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "50px Garamond";
+ctx.fillText("WELCOME TO MKCE",261,50);
+</script></center><br>
+<center>
+COURCE OFFERED<hr>
+</center>
+<center>
+<table id="t01">
+  <tr>
+    <th>B.Tech</th>
+    <th>Information Technology</th> 
+  </tr> <tr>
+    <th>B.E</th>
+    <th>Civil Engineering</th> 
+  </tr> <tr>
+    <th>B.E</th>
+    <th>ComputerScience Engineering</th> 
+  </tr> <tr>
+    <th>B.E</th>
+    <th>Electrical and communication Engineering</th> 
+  </tr></tr> <tr>
+    <th>B.E</th>
+    <th>Electrical and Electronic Engineering</th> 
+  </tr>
+  </tr> <tr>
+    <th>B.E</th>
+    <th>Mechanical Engineering</th> 
+  </tr>
+  </teble>
+  </center>
+</form>
+</body>
+</html>
